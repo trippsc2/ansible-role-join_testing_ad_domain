@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Jim Tarpley
+  namespace: trippsc2
+  role_name: join_testing_ad_domain
+  description: This role joins a Windows machine to a test Active Directory Domain during Molecule testing.
+  license: MIT
+
+  min_ansible_version: '2.11'
+
+  platforms:
+  - name: Windows
+    versions:
+      - '2019'
+      - '2022'
+
+collections:
+  - community.windows
+  - microsoft.ad
+
+dependencies: []
