@@ -3,10 +3,10 @@ galaxy_info:
   author: Jim Tarpley
   namespace: trippsc2
   role_name: join_testing_ad_domain
-  description: This role joins a Windows machine to a test Active Directory Domain during Molecule testing.
+  description: 'DEPRECATED: Use trippsc2.ad.testing_domain_member instead.'
   license: MIT
 
-  min_ansible_version: '2.11'
+  min_ansible_version: '2.14'
 
   platforms:
   - name: Windows

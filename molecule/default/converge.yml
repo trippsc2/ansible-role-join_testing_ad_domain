@@ -4,4 +4,4 @@
     - subjects
   gather_facts: false
   roles:
-    - role: trippsc2.join_testing_ad_domain
+    - role: trippsc2.ad.testing_domain_member
